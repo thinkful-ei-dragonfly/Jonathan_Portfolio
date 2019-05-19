@@ -29,3 +29,8 @@ nav p{
   display: flex;
   width: 75%;
 }
+
+img{
+  display: block;
+  margin-left: 40%;
+}
