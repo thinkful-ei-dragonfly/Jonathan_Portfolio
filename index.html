@@ -11,30 +11,54 @@
 
   <title>Jonathan Moore</title>
 </head>
+<style>a {text-decoration: none;} </style>
 <body>
   <nav role="navigation">
-    <h2>Jonathan Moore</h2>
+    <h2 id="home">Jonathan Moore</h2>
     <div class="social-media">
-      <p>Github</p>
-      <p>Linkedin</p>
-      <p>Twitter</p>
+      <a href="#home">Home</a>
+      <a href="#bio">Bio</a>
+      <a href="#projects">Projects</a>
+      <a href="https://github.com/JonathanEdMoore" target="blank" style="color: orange">Github</a>
+      <a href="https://www.linkedin.com/in/jonathan-moore-73b24721/" target="blank" style="color: royalblue">Linkedin</a>
+      <a href="https://twitter.com/JonathanEMoore" target="blank" style="color: lightblue">Twitter</a>
       </div>
     </nav>
   <main>
   <h1> 
     Hi, my name is Jonathan. I'm a fullstack developer!
   </h1>
-  <img src="images/Black king.png">
+  <img class="header-image"src="images/Black king.png">
   <div>
-  <section class="bio">
+  <section id = "bio" class="bio">
+    <h2 class="section-header">About me</h2>
       <p>I am a web developer and current student of the Engineering Immersion bootcamp at Thinkful. My initial career ambition was to purue a career as an academic philosopher. I attended Tufts University and studied with some of the most well-respected philosophers in the world. I've always enjoyed analytical reasoning and argumentation, but I became disillusioned with philosophy's disinterest in concrete practical problems. I've found that coding has given me the best of both worlds. I'm able to work out my problem-solving skills and ponder abstract theoretical problems while also being grounded in the problems of the real world.</p>
       <p>When I'm not coding, I enjoy playing strategy games like chess or poker, training in Muay Thai or Brazilian Jiu Jitsu, and powerlifting. And on occasion, I'll read some analytic philosophy.</p>
   </section>
   </div>
-  <button class="contact">Contact Me</button>
-  <button class="projects">View My Projects</button>
+  <div>
+  <section id= "projects" class="projects">
+    <h2 class="section-header">Projects</h2>
+    <img class="image" src="images/Quiz-photo">
+    <p>This is a simple quiz/trivia app. The user is asked 5 questions, one at a time. Once they've answered each question, the app records their score.</p>
+    <a href="https://github.com/thinkful-ei-dragonfly/Clinton_Jonathan_Quiz_App/tree/Jonathan-branch" target ="blank">
+      <button class="github-link">Github</button>
+    </a>
+    <img class="image" src="images/Bookmark-photo">
+    <p>This is an app that allows the user to submit a website url and description to be saved in a bookmarks page. The app allows them to delete bookmarks as well as filter according to rating.</p>
+      <a href="https://github.com/thinkful-ei-dragonfly/Jonathan-Bookmarks-app" target="blank">
+        <button class="github-link">Github</button>
+      </a>
+      <a href="https://thinkful-ei-dragonfly.github.io/Jonathan-Bookmarks-app/" target="blank">
+        <button class="live-link"> Live Demo</button>
+      </a>
+  </section>
+  </div>
 </main>
   </body>
-  
-</body>
+  <footer id="footer">
+    <ul>
+      <li><a href="mailto:jonathan.moore6247@gmail.com">Email me at: jonathan.moore6247@gmail.com</a></li>
+    </ul>
+  </footer>
 </html>
