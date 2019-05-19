@@ -2,10 +2,14 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Oswald', sans-serif;
+}
+
 .image{
   margin-left: auto;
   margin-right: auto;
-  width: 250px;
+  width: 100%;
   border: solid black;
   margin-bottom: 20px;
   margin-top: 50px;
@@ -20,15 +24,50 @@
   border-radius: 5px;
 }
 
+.header-image{
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%
+}
+
+nav{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  display: block;
+  background-color: black;
+  color: white;
+}
+
+li{
+  list-style: none;
+}
+
+.nav-list{
+  width: 20%;
+  float: left;
+}
+
+h1{
+  text-align: center;
+  margin-top: 70%;
+}
+
+a{
+  color: white;
+}
+
+
+
+
+
+
 /* Non-mobile, grid */
 @media only screen and (min-width: 640px){
-  body{
-    font-family: 'Oswald', sans-serif;
-  }
-  
   h1{
     text-align: center;
-    margin-top: 8%;
+    margin-top: 15%;
   }
   
   section{
@@ -54,7 +93,7 @@
     cursor: pointer;
   }
   
-  .social-media{
+  .nav-list{
     display: flex;
     width: 75%;
   }
@@ -71,7 +110,7 @@
   .image{
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 100%;
     border: solid black;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -104,10 +143,6 @@
     text-align: center;
   }
   
-  a{
-    color: white;
-  }
-  
   .profile-photo{
     float: left;
     width: 25%;
@@ -125,5 +160,9 @@
     display: flex;
     background-color: black;
     color: white;
+  }
+
+  ul{
+    display: flex;
   }
 }
