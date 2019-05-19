@@ -143,15 +143,6 @@ button{
     text-align: center;
   }
   
-  .profile-photo{
-    float: left;
-    width: 25%;
-    margin-top: 32px;
-    margin-right: 15px;
-    border: solid black;
-    border-radius: 5px;
-  }
-  
   nav{
     position: fixed;
     top: 0%;
