@@ -14,7 +14,7 @@ h1{
 section{
   font-size: 20px;
   text-align: center;
-  padding: 0% 5%;
+  padding: 0% 20%;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -86,4 +86,13 @@ button{
 
 a{
   color: white;
+}
+
+.profile-photo{
+  float: left;
+  width: 25%;
+  margin-top: 32px;
+  margin-right: 15px;
+  border: solid black;
+  border-radius: 5px;
 }
