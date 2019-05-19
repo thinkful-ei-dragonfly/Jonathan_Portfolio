@@ -80,6 +80,12 @@ button{
   text-align: center;
 }
 
+.project-details p{
+  display: inline;
+  line-height: 40px;
+}
+
+
 
 
 
@@ -155,5 +161,9 @@ button{
 
   ul{
     display: flex;
+  }
+
+  .project-details{
+    display: block;
   }
 }
