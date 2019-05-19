@@ -2,3 +2,39 @@
   box-sizing: border-box;
 }
 
+h1{
+  text-align: center;
+}
+
+.projects{
+  font-size: 15px;
+}
+
+.contact{
+  font-size: 15px;
+}
+
+.bio{
+  margin-right: 50%;
+}
+
+header{
+  display: flex;
+  background-color: black;
+  color: white;
+}
+
+h2{
+  width: 25%;
+}
+
+header p{
+  width: 33%;
+  text-align: right;
+  padding: 0% 5%;
+}
+
+.social-media{
+  display: flex;
+  width: 75%;
+}
