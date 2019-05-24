@@ -51,7 +51,11 @@ li{
 
 h1{
   text-align: center;
-  margin-top: 70%;
+  margin-top: 90%;
+}
+
+h2{
+  margin-left: 20px;
 }
 
 a{
@@ -92,7 +96,7 @@ button{
 
 
 /* Non-mobile, grid */
-@media only screen and (min-width: 640px){
+@media only screen and (min-width: 850px){
   h1{
     text-align: center;
     margin-top: 15%;
