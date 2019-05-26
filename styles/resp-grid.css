@@ -108,7 +108,7 @@ button{
     width: 25%;
   }
 
-  ul li{
+  nav ul li{
     text-align: right;
     width: 20%;
     padding: 0% 5%;
@@ -159,7 +159,6 @@ button{
   ul{
     display: flex;
     width: 100%;
-    text-align: right;
   }
 
   .project-details{
