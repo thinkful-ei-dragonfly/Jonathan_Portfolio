@@ -31,7 +31,7 @@ body{
 }
 
 nav{
-  position: fixed;
+  position: absolute;
   top: 0%;
   left: 0%;
   right: 0%;
@@ -51,7 +51,7 @@ li{
 
 h1{
   text-align: center;
-  margin-top: 90%;
+  margin-top: 70%;
 }
 
 h2{
@@ -89,12 +89,6 @@ button{
   line-height: 40px;
 }
 
-
-
-
-
-
-
 /* Non-mobile, grid */
 @media only screen and (min-width: 850px){
   h1{
@@ -115,10 +109,12 @@ button{
   }
   
   nav *{
+    position: absolute;
     width: 33%;
     text-align: right;
     padding: 0% 5%;
     margin: 16px;
+    
   }
   
   nav div ul:hover{
@@ -154,7 +150,7 @@ button{
   }
   
   nav{
-    position: fixed;
+    position: absolute;
     top: 0%;
     left: 0%;
     right: 0%;
@@ -171,3 +167,4 @@ button{
     display: block;
   }
 }
+
